@@ -13,8 +13,7 @@ MIT License
 from AirSimClient import CarClient, CarControls, ImageRequest, AirSimImageType, AirSimClientBase
 import os
 import time
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
+import tensorflow as tf
 import pickle
 import sys
 

@@ -13,8 +13,7 @@ This file is part of AirSimTensorFlow
 MIT License
 '''
 
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
+import tensorflow as tf
 
 def inference(x, xsize, ysize, W_vals=0, b_vals=0):
     '''
